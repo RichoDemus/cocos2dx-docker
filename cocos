@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it --rm -v `pwd`:/source cocos2dx:3.10 "$@"
